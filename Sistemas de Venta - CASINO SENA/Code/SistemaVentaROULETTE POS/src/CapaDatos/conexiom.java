@@ -5,11 +5,12 @@ import java.sql.*;
 public class conexiom {
     Connection con;
     
+    
     public conexiom(){
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3307/bdsistemaventa","root","");
-            System.out.println("Conexión exitosa a la base de datos!");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bdsistemaventa","root","");
+            System.out.println("Conexion exitosa a la base de datos!");
         } catch (ClassNotFoundException | SQLException e) {
             System.out.println("Error al conectar: "+e.getMessage());
         }
