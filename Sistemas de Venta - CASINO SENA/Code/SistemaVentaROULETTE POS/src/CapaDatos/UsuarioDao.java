@@ -26,8 +26,6 @@ public class UsuarioDao {
             if (rS.next()) {
                 U.setCorreo(rS.getString("Correo"));
                 U.setClave(rS.getString("clave"));
-                
-                
             }
             
                                           
