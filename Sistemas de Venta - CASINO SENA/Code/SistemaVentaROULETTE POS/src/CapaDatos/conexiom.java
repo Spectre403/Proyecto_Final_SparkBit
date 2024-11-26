@@ -22,6 +22,9 @@ public class conexiom {
     public static void main(String[] args) {
         conexiom com = new conexiom();
         com.getConnection();
+        
+        
+        
     }
     
 }
