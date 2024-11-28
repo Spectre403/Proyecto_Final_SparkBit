@@ -7,6 +7,7 @@ import com.mysql.cj.xdevapi.Statement;
 import java.awt.Color;
 import CapaDatos.conexiom;
 import java.sql.*;
+ 
 
 public class Login extends javax.swing.JFrame {
     
